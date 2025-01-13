@@ -1,3 +1,3 @@
 # dotfiles
-backing up dotfiles
-easier to pull this repo
+backing up dotfiles,
+its easier to just pull this repo
