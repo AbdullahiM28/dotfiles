@@ -7,5 +7,6 @@ alias leave="TASKKILL //F //IM 'code.exe'"
 alias e="exit";
 alias ncommit="git commit -a --allow-empty-message -m ''"
 alias pall="git add .; ncommit; git push"
-alias bashrc="source ~/.bashrc; cat ~/.bashrc;"
+alias pull="git pull"
+alias bashrc="cp ./.bashrc ~/ ; source ~/.bashrc; cat ~/.bashrc;"
 alias webcrawl="echo 'wget --spider --recursive --no-verbose --output-file=urls.txt http://example.com'"
