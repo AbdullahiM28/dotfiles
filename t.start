@@ -1,7 +1,9 @@
 sudo apt install build-essential -y;
 sudo apt install vim -y; sudo apt install git -y;
-mkdir project; cd projects; wget https://github.com/AbdullahiM28/dotfiles/archive/refs/heads/main.zip;
-unzip main.zip; rm main.zip; cd dotfiles*; source .bashrc; cd ..; 
+source ~/projects/dotfiles/.bashrc;
 wget https://www.python.org/ftp/python/3.7.1/Python-3.7.1.tgz;
 tar -xzvf *.tgz; rm *.tgz; mv Python-3.7.1 python37; cd python37;
-./configure; make -j; echo "alias py37="~/projects/python37/python" >> ~/.bashrc;
+./configure; make -j;
+echo "alias py37="~/projects/python37/python" >> ~/.bashrc; source ~/.bashrc;
+wget https://bootstrap.pypa.io/pip/20.3.4/pip-20.3.4.tar.gz;
+tar -xzvf *.gz;
