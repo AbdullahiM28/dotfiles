@@ -4,7 +4,7 @@ sudo apt-get install build-essential libssl-dev zlib1g-dev libbz2-dev libreadlin
 source ~/projects/dotfiles/.bashrc;
 wget https://www.python.org/ftp/python/3.7.1/Python-3.7.1.tgz;
 tar -xzvf *.tgz; rm *.tgz; mv Python-3.7.1 python37; cd python37;
-./configure; make -j;
+./configure --enable-optimizations --with-ensure-pip=install; make -j;
 echo "alias py37="~/projects/python37/python" >> ~/.bashrc; source ~/.bashrc;
 wget https://bootstrap.pypa.io/pip/3.7/get-pip.py;
 py37 get-pip.py;
