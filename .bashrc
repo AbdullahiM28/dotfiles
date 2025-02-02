@@ -1,3 +1,5 @@
+# you can ususally get this files without any other installations (using wget)
+# wget https://github.com/AbbdullahiM28/dotfiles/archive/refs/heads/main.zip
 alias clear="tput reset"
 alias f=""
 alias show="clear; ls -a"
