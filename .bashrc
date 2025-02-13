@@ -17,7 +17,7 @@ alias webcrawl="echo 'wget --spider --recursive --no-verbose --output-file=urls.
 alias py="python3"
 alias ipaddr="hostname -I; ip -4 addr show | grep inet | awk '{ print $2 }' | cut -d/ -f1"
 alias gcc="~/projects/compile/mingw/bin/gcc.exe"
-alias g++="~/projects/compile/mingw/bin/g++.exe"
+export PATH=$PATH:"~/projects/compile/mingw/bin/g++.exe"
 alias clang++="~/projects/compile/mingw/bin/clang++.exe"
 alias clang="~/projects/compile/mingw/bin/clang.exe"
 alias make="~/gnuwin32/bin/make"
