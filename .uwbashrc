@@ -1,0 +1,13 @@
+alias ms136l="/u2/cs136l/pub/marmoset_submit cs136l"
+alias ms136="/u2/cs136l/pub/marmoset_submit cs136"
+alias pullrepo="git pull /u2/cs136/pubrepos/cs136w24"
+alias wrun="chmod u+rwx /u2/a58moham/wrun; bash /u2/a58moham/wrun"
+alias show="clear; ls -a"
+alias g++20="g++-14.2.0 -std=c++20 -fmodules-ts -Wall -g"
+alias g++20h="g++-14.2.0 -std=c++20 -fmodules-ts -c -x c++-system-header"
+alias maketest="chmod u+rwx ~/maketest; bash ~/maketest"
+alias vim="vim -X"
+export EDITOR=vim
+alias ms246="marmoset_submit cs246"
+alias runtest="chmod u+rwx ~/runtest; ~/runtest"
+alias ncommit="git commit -a --allow-empty-message -m ''"
