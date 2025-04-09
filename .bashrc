@@ -16,6 +16,7 @@ alias c++v="g++ c++_version.cc -o a.out && chmod u+rwx ./a.out && ./a.out && rm 
 alias webcrawl="echo 'wget --spider --recursive --no-verbose --output-file=urls.txt http://example.com'"
 alias py="python3"
 alias ipaddr="hostname -I; ip -4 addr show | grep inet | awk '{ print $2 }' | cut -d/ -f1"
+alias fzd="cd $(find * -type d | fzf)"
 alias gcc="~/projects/compile/mingw/bin/gcc.exe"
 export PATH=$PATH:"/c/Users/Abdullahi M/projects/compile/mingw/bin"
 alias clang++="~/projects/compile/mingw/bin/clang++.exe"
